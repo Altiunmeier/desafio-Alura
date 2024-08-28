@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Desafío Alura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <h1>Encriptador Desafío Alura</h1>
+
+    <div class="container">
+        <textarea id="bloqueUno" placeholder="Escriba el texto aqui."></textarea>
+        <div class="output" id="bloqueDos">
+            <p id="SiNoHayTexto">No se ha encontrado ningún texto a encriptar.</p>
+        </div>
+    </div>
+
+    <div class="message">
+        *No se aceptan mayúsculas ni caracteres especiales.*
+    </div>
+
+    <div class="buttons">
+
+        <button onclick="cifrar()">Cifrar</button>
+        <button onclick="decifrar()">Descifrar</button>
+        <button onclick="copiar()">Copiar</button>
+
+    </div>
+
+    <footer>
+        "Kevin Andres Herrera Ruiz - 2024"
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
